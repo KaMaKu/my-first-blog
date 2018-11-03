@@ -25,7 +25,7 @@ SECRET_KEY = '-cg6%9m_^z00^8=kvs3mvs_74lw-h$tpdqqryz6+o@!sk(dgrc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'kamaku.pythonanywhere.com']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    
+
 ]
 
 MIDDLEWARE = [
